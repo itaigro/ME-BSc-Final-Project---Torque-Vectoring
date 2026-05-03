@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info File="main_program.slx" GroupUUID="default" Icon="" Name="main_program" Type="StartUp" Visible="0">
+    <Extension Name="StartUpPrev" Value="e9cb0375-cabb-4fb7-aa5e-25cbdf02d9da"/>
+</Info>
