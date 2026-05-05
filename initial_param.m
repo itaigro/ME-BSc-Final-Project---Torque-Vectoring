@@ -18,7 +18,7 @@ Vehicle.a           = 0.68;                       % [m]       Distance from C.G 
 Vehicle.b           = Vehicle.L - Vehicle.a;      % [m]       Distance from C.G to rear axle
 Vehicle.Rw          = 0.235;                      % [m]       Wheel radius
 Vehicle.Iz          = 245.9;                      % [kg*m^2]  Yaw moment of inertia
-
+Tomer.check = 2;
 %% --- Tire Parameters (Cornering Stiffness) ---
 Vehicle.Ca_front_wheel = 10000;                   % [N/rad]   Cornering stiffness per single front wheel
 Vehicle.Ca_rear_wheel  = 9000;                    % [N/rad]   Cornering stiffness per single rear wheel
