@@ -16,9 +16,14 @@ Vehicle.L           = 1.54;                       % [m]       Wheelbase (front a
 Vehicle.TrackWidth  = 1.2;                        % [m]       *** Need to be filled ***
 Vehicle.a           = 0.68;                       % [m]       Distance from C.G to front axle
 Vehicle.b           = Vehicle.L - Vehicle.a;      % [m]       Distance from C.G to rear axle
-Vehicle.Rw          = 0.235;                      % [m]       Wheel radius
+Vehicle.Rw          = 0.23876;                      % [m]       Wheel radius
+Vehicle.Rw_eff      = Vehicle.Rw*0.98;            % effective wheel radius [m]
 Vehicle.Iz          = 245.9;                      % [kg*m^2]  Yaw moment of inertia
 
+%% --- Sensors Parameters ---
+Speed.tau_gps       = 0.3;
+Speed.tau_RPM       = 0.05;
+Speed.alpha         =0.95;
 %% --- Tire Parameters (Cornering Stiffness) ---
 Vehicle.Ca_front_wheel = 10000;                   % [N/rad]   Cornering stiffness per single front wheel
 Vehicle.Ca_rear_wheel  = 9000;                    % [N/rad]   Cornering stiffness per single rear wheel
